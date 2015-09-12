@@ -1,0 +1,29 @@
+.button{
+	text-align: center;
+	padding:15px;
+	background-color: seagreen;
+	height: 125px;
+	width: 300px;
+	border-radius: 20px;
+	font-family: Courier;
+	font-size: 30px;
+
+	}
+	.h1 {
+		background-color: firebrick;
+		font-family:  Fantasy;
+		font-style: letter-spacing: 3px;
+		
+		}
+	.background{ 
+		background-color: dodgerblue;
+	}
+	.liststyle{
+		background-color:lightgray;
+		font-size: 30px;
+		font-family: sans-serif;
+	}
+
+	.p1:hover{
+background-color: coral;
+	}

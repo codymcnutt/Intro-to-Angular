@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>angular test page</title>
+    <link rel="stylesheet" href="main.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script> 
+      <script src="main.js"></script>
+      <script src="snowstorm.js"></script> 
+    <script>snowStorm.excludeMobile = false;</script>
+  </head>
+
+  <body class="background">
+    <div ng-controller="maincontroller">
+
+<p ng-class ="{p1:isCoral}"  ng-mouseenter="toggleClass()" ng-mouseleave ="toggleClass()">
+Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.
+</p>
+
+<p ng-class ="{p1:isCoral}"  ng-mouseenter="toggleClass()" ng-mouseleave ="toggleClass()">
+Shields up. I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.
+</p>
+
+
+     <button class="button" ng-click="toggleHeader()">Sweet Button</button>
+      <h1 class="button h1"ng-if="surprise">{{SweetButton}}</h1>
+
+      <ul class=" button liststyle" ng-click="toggleList()"> Learn something cool  </ul>
+         <li class=" button liststyle" ng-if="wings">{{spoons}} </li>
+          <li class="button liststyle" ng-if="wings">{{Ispoon}} </li>
+          <li class="button liststyle" ng-if="wings">{{Ispoo}} </li>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
